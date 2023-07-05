@@ -1,0 +1,586 @@
+@media screen and (max-width:1281px){
+    header{
+        padding: 10px 58px 13px 149px;
+    }
+    .btn1 .btn1-menu{
+        right: 430px;
+    }
+    .more-menu{
+        right: 123px;
+    }
+}
+
+
+@media screen and (max-width:1255px){
+    main .continer1{
+        overflow: scroll;
+    }
+}
+
+
+@media screen and (max-width:1181px){
+    header{
+            padding: 10px 27px 13px 69px;       
+    }
+    .btn1 .btn1-menu{
+        right: 410px;
+    }
+    .more-menu{
+        right: 111px;
+    }
+}
+
+
+
+@media screen and (max-width:1081px){
+    header{padding: 10px 9px 13px 28px;
+    }
+    .btn1 .btn1-menu{
+        right: 352px;
+    }
+    .more-menu{
+        right: 48px;
+    }
+    main .continer3 .box2{
+        display: none;
+    }
+    main .continer3 .box1{
+        width: 100%;
+    }
+    main .continer3 .box1 .boxii{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:1025px){
+    header{
+        justify-content: center;
+        align-items: center;
+        padding-right: 60px;
+    }
+    .btn1 .btn1-menu{
+        right: 165px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .fa-bars{
+        display: flex;
+        position: relative;
+        left: 35px;
+        font-size: 25px;
+    }
+    main .continer3 .box1 .boxi .btn4{
+        left:54px;
+    }
+    footer .continer2{
+        padding: 25px 10px;
+    }
+}
+@media screen and (max-width:961px){
+    .btn1 .btn1-menu{
+        right: 135px;
+    }
+}
+@media screen and (max-width:901px){
+    .btn1 .btn1-menu{
+        right: 105px;
+    }
+
+    main .continer5{
+        width: 92%;
+    }
+
+    footer .continer2{
+        display: grid;
+        justify-content: center;
+        max-height: 6vh;
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    footer .continer2 .continerx p{
+        margin-left: 25px;
+    }
+    footer .continer2 .continery{
+        padding-left:115px;
+    }
+}
+@media screen and (max-width:845px){
+    .btn1 .btn1-menu{
+        right: 55px;
+    }
+}
+@media screen and (max-width:737px){
+    .btn1 .btn1-menu{
+        right: 25px;
+    }
+}
+@media screen and (max-width:721px){
+    .search .input1{
+        max-width: 280px;
+    }
+    .fa-magnifying-glass{
+        margin-left: 310px;
+    }
+    .btn1 .btn1-menu{
+        right: 78px;
+    }
+}
+@media screen and (max-width:668px){
+    .btn1 .btn1-menu{
+        right: 48px;
+    }
+}
+@media screen and (max-width:668px){
+    .search .input1{
+        max-width: 180px;
+        padding:0 25px 0 10px ;
+    }
+    .fa-magnifying-glass{
+        margin-left: 210px;
+    }
+    .btn1 {padding: 5px 20px;
+    }
+    .btn1 .btn1-menu{
+        right: 68px;
+    }
+    footer .continer2 .continerx p{
+        margin-left: 10px;
+    }
+    footer .continer2 .continery{
+        padding-left:85px;
+    }
+}
+
+@media screen and (max-width:541px){
+    .btn1 .btn1-menu{
+        right: 35px;
+    }
+    main .continer5{
+        width: 87%;
+    }
+    footer .continer1 .continerx a{
+        display: none;
+    }
+    footer .continer1 .continerh .po{
+       display: none;
+
+    }
+    footer .continer1 .continerh .continerf{
+        height: 15px;
+        width: 60px;
+        padding: 0 8px;
+    }
+    footer .continer1{
+        max-height: 0vh;
+        padding-top: 10px;
+    }
+    footer .continer1 .continerx p:hover{
+        color: yellow;
+    }
+    footer .continer1 .contineriv{
+        margin-left: 20px;
+    }
+    footer .continer2 .continerx p{
+        margin-left: 8px;
+    }
+    footer .continer2 .continerx p i{
+        display: none;
+    }
+    
+    
+}
+
+
+/*phone*//*phone*//*phone*//*phone*//*phone*/
+
+
+@media screen and (max-width:429px){
+   header{
+    position: relative;
+    display: grid;
+    height: 4.5rem;
+    padding: 0;
+   }
+   header .img1{
+    padding-top: 5px;
+    /* padding-bottom: 1px; */
+   }
+   header .img1 img{
+    width: 4rem;
+    height: 1rem;
+   }
+   header .img1 .px1{
+    justify-content: center;
+    font-size: 9px;
+   }
+   header .search{
+    /* position: s;
+    top: 0; */
+    max-width: 26rem;
+    padding: 5px;
+    /* background-color: #054854; */
+    border-radius: 2px;
+    z-index: 20;
+    margin-left: 0px;
+   }
+   header .search .input1{
+    position: relative;
+    max-width: 100%;
+    height: 1.8rem;
+   }
+   header .btn1{
+    position: relative;
+    bottom: 4rem;
+    left: 22rem;
+    width: 3rem;
+    height: 1.5rem;
+    /* text-align: center; */
+    padding: 0 5px;
+   }
+   nav .fa-bars{
+    position: relative;
+    bottom: 5.5rem;
+    left: 1.5rem;
+    font-size: 1.5rem;
+   }
+   nav .fa-bars:hover{
+    transform: none;
+   }
+   .fa-magnifying-glass{
+    left: 10rem;
+   }
+   main .continer1{
+    min-height: 64px;
+    padding: 1vh 2vw;
+   }
+   main .continer1 .continerx{
+    height: 60px;
+    margin: 0px 0px;
+    padding: 2px 8px;
+   }
+   main .continer1 .continerx img {
+    height: 30px;
+    min-width: 30px;
+    }
+    main .continer1 .continerx a p{
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    main .continer1 .product8{
+        min-width: 56px;
+    }
+    main .continer1 .product9{
+        min-width: 65px;
+    }
+    main .continer1 .product10{
+        min-width: 71px;
+    }
+    main .continer3 .box1{
+        display: grid;
+    }
+    main .continer3 .box1 .boxi{
+        max-height: 40px;
+        width: 100%;
+        background-position:left;
+    }
+    main .continer3 .box1 .boxi p{
+        font-size: 15px;
+    }
+    main .continer3 .box1 .boxi .btn4 {
+        height: 2.5rem;
+        width: 7.5rem;
+        font-size: 10px;
+        bottom: 17px;
+        left: 17.4rem;
+    }
+    main .continer3 .box1 .boxi .btn4:hover{
+        transform: none;
+        color: yellow;
+    }
+
+    main .continer3 .box1 .boxii .boxa img {
+        height: 75px;
+        width: auto;
+    }
+    main .continer3 .box1 .boxii .boxa p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    main .continer3 .box1 .boxii .boxa .price {
+        margin-top: 0px;
+    }
+    main .continer3 .box1 .boxii .boxa .dtl {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    main .continer3 .box1 .boxii .boxa {
+        height: 150px;
+        width: 135px;
+        padding: 0 0;
+        
+    }
+    main .continer3 .box1 .boxii .box2o{
+        padding-top: 15px;
+    }
+
+
+
+    main .continer4{
+        display: grid;
+    }
+   
+    main .continer4 .box1 P {
+        font-size: 15px;
+        position: relative;
+        right: 35px;
+    }
+    main .continer4 .box1 .btn5 {
+        height: 2.5rem;
+        width: 7.5rem;
+        font-size: 10px;
+        bottom: 17px;
+        left: 17.4rem;
+    }
+    main .continer4 .box1{
+        max-height: 40px;
+        width: 100%;
+        background-position:left;
+    }
+
+    main .continer4 .box2{
+        width: 100%;
+    }
+    main .continer4 .box2 .boxa  img {
+        height: 75px;
+        width: auto;
+    }
+    main .continer4 .box2 .boxa p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    main .continer4 .box2 .boxa .price {
+        margin-top: 0px;
+    }
+    main .continer4 .box2 .boxa .dtl {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    main .continer4 .box2 .boxa {
+        height: 160px;
+        min-width: 100px;
+        padding: 0 15px;
+        margin-top: 8px;
+        
+    }
+    main .continer4 .box2 .boxab{
+        min-width: 90px;
+    }
+    main .continer4 .box2 .box2o{
+        padding-top: 15px;
+    }
+
+
+    main .continer5{
+        display: none;
+    }
+
+
+
+    footer .continer1 .continerx p {
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+
+
+    footer .continer2 {
+        max-height: 15vh;
+    }
+    footer .continer2 .continerx p{
+        font-size: 10px;
+    }
+    footer .continer2 .continery {
+        padding-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width:415px){
+    main .continer3 .box1 .boxi .btn4{
+        width:6.5rem ;
+    }
+    main .continer4 .box1 .btn5{
+        width: 6.5rem;
+    }
+}
+@media screen and (max-width:394px){
+    .fa-magnifying-glass {
+        left: 9rem;
+      }
+    main .continer3 .box1 .boxi .btn4{
+        width:5.29rem ;
+    }
+    main .continer4 .box1 .btn5{
+        width: 5.29rem;
+    }
+}
+@media screen and (max-width:391px){
+    main .continer3 .box1 .boxi .btn4{
+        width:5.1rem ;
+    }
+    main .continer4 .box1 .btn5{
+        width: 5.1rem;
+    }
+}
+@media screen and (max-width:385px){
+    main .continer3 .box1 .boxi .btn4{
+        width:4.7rem ;
+    }
+    main .continer4 .box1 .btn5{
+        width: 4.7rem;
+    }
+}
+@media screen and (max-width:376px){
+    header .btn1{
+        left: 20.6rem;
+    }
+    nav .fa-bars{
+        left: 2rem;
+    }
+    header .search{
+        max-width: 25rem;
+    }
+    .fa-magnifying-glass {
+        left: 8rem;
+    }
+    main .continer3 .box1 .boxi .btn4{
+        width:4.1rem ;
+    }
+    main .continer4 .box1 .btn5{
+        width: 4.1rem;
+    }
+    footer .continer2 .continery img{
+        max-width: 23rem;
+    }
+}
+@media screen and (max-width:361px){
+    header .btn1{
+        left: 19.5rem;
+    }
+    header .search{
+        max-width: 24rem;
+    }
+    .fa-magnifying-glass {
+        left: 7rem;
+    }
+    main .continer3 .box1 .boxi .btn4{
+        width:3.2rem ;
+    }
+    main .continer4 .box1 .btn5{
+        width: 3.2rem;
+    }
+    footer .continer2 .continery img {
+        max-width: 22rem;
+      }
+}
+@media screen and (max-width:321px){
+    header .btn1{
+        left: 17.7rem;
+    }
+    header .search{
+        max-width: 22rem;
+    }
+    .fa-magnifying-glass {
+        left: 5rem;
+    }
+    main .continer3 .box1 .boxi .btn4{
+        left: 15rem;
+    }
+    main .continer4 .box1 .btn5{
+        left: 15rem;
+    }
+    footer .continer2 .continery img {
+        max-width: 20rem;
+      }
+}
+@media screen and (max-width:281px){
+    header .btn1{
+        left: 14rem;
+    }
+    nav .fa-bars{
+        font-size: 20px;
+        left: 1.6rem;
+        bottom: 5.4rem;
+    }
+    header .search{
+        max-width: 18rem;
+    }
+    .fa-magnifying-glass {
+        left: 31px;
+    }
+    main .continer3 .box1 .boxi .btn4{
+        left: 6.5rem;
+        bottom: 0rem;
+        height: 1.4rem;
+    }
+    main .continer4 .box1 .btn5{
+        left: 6.5rem;;
+        bottom: 0rem;
+        height: 1.4rem;
+    }
+    main .continer4 .box1 p{
+        left: 4px;
+    }
+    footer .continer1 .continerx p{
+        font-size: 8px;
+    }
+    footer .continer2 .continerx p{
+        font-size: 9px;
+    }
+    footer .continer2 .continery img {
+        max-width: 14rem;
+      }
+}
+@media screen and (max-width:241px){
+    header .btn1{
+        left: 12rem;
+    }
+    nav .fa-bars{
+        font-size: 20px;
+        left: 1.6rem;
+        bottom: 5.4rem;
+    }
+    header .search{
+        max-width: 16rem;
+    }
+    .fa-magnifying-glass {
+        left: -2px;
+    }
+    main .continer3 .box1 .boxi .btn4{
+        left: 5rem;
+        bottom: 0rem;
+        height: 1.4rem;
+    }
+    main .continer4 .box1 .btn5{
+        left: 5rem;
+        bottom: 0rem;
+        height: 1.4rem;
+    }
+    main .continer4 .box1 p{
+        left: 4px;
+    }
+    footer .continer1 .continerx p{
+        font-size: 8px;
+    }
+    footer .continer2 .continerx p{
+        font-size: 9px;
+    }
+    footer .continer2 .continery img {
+        max-width: 14rem;
+      }
+}
+
+

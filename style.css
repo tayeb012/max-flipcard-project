@@ -1,0 +1,704 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Montserrat:wght@100&family=Roboto+Condensed&family=Roboto:ital@1&display=swap');
+
+
+::-webkit-scrollbar{
+    width: 1rem;
+    height: 0.8rem;
+}
+::-webkit-scrollbar-track{
+    background-color: yellow;
+    border-radius: 1rem;
+}
+::-webkit-scrollbar-track:hover{
+    background-color: #2874f0;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#2874f0);
+    border: 5px solid transparent;
+    border-radius: 1rem;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent, yellow);
+    border: 5px solid transparent;
+    border-radius: 1rem;
+    background-clip: content-box;
+}
+
+
+
+*{
+    /* overflow:hidden; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    height: 33px;
+    padding: 10px 100px 13px 195px;
+    text-align: center;
+    align-items: center;
+    background-color:#2874f0;
+    font-size: 16px;
+    font-weight: 550;
+    color: aliceblue;
+    box-shadow: 0 0px 4px #283555;
+    position: sticky;
+    top: 0;
+    z-index: 15;
+}
+.img1 a{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+}
+.img1 a:hover{
+    text-decoration: underline;
+}
+header .px1{
+    display: flex;
+    margin-top: -4px;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;  
+}
+header .px1 .p2{
+    color: yellow;  
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 -15px;
+}
+.search .input1{
+    margin: 0 20px;
+    width: 395px;
+    height: 36px;
+    border-radius:2px;
+    border: none;
+    box-shadow: -0.01px 0.01px 15px rgba(43, 66, 88, 0.678);
+    padding: 0 19.7px;
+    font-size: 15px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    margin-left: 428px;
+    font-size: 18px;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 30px;
+    margin-top: 0.6px;
+    padding: 5px 40px;
+    font-size: 16px;
+    box-shadow: -1px -1px 15px  rgba(56, 82, 106, 0.207), 1px 1px 15px  rgba(56, 82, 106, 0.843);
+    cursor: pointer;
+}
+
+.btn1 .btn1-menu{
+    display: none;
+    position:absolute;
+    top: 56px;
+    right: 460px;
+    height: 335px;
+    box-shadow: -1px -1px 15px  rgba(56, 82, 106, 0.207), 1px 1px 15px  rgba(56, 82, 106, 0.843);
+    transition: 0.5s;
+}
+.btn1:hover > .btn1-menu{
+    display: block;
+    z-index: 10;
+    background-color: white;
+}
+.btn1-menu-li1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #283555;
+    height: 30px;
+    /* font-size: 1px; */
+    font-weight: 550;
+}
+.btn1 .btn1-menu ul li a{
+    text-decoration: none;
+    color: #2874f0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn1 .btn1-menu ul li a:hover{
+    text-decoration:underline;
+}
+.btn1 .btn1-menu ul li{
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    border-bottom:1px solid #2835550f;
+    font-size: 13px;
+    width: 175px;
+    padding: 15px 20px;
+
+}
+.btn1 .btn1-menu ul li:hover{
+    background-color: whitesmoke;
+}
+.btn1 .btn1-menu ul li i{
+    padding:0 15px 0 0;
+}
+.btn1 .btn1-menu .fa-caret-up{
+    position: absolute;
+    font-size: 40px;
+    right: 92px;
+    bottom: 319px;
+}
+
+
+
+
+
+
+
+
+.fa-bars{
+    display: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+nav .fa-bars:hover{
+    transform: scale(1.1);
+}
+/* nav .fa-bars:hover > nav ul{
+    display: block;
+    z-index:10 ;
+} */
+nav ul{
+    margin-left:18px;
+}
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    margin-left: 35px;
+    cursor: pointer;
+    
+}
+
+.more-menu{
+    display: none;
+    transition: 2s;
+}
+nav ul li:hover > .more-menu{
+    display: block;
+    /* background-color: white; */
+    z-index: 10;
+}
+.more-menu{
+    position: relative;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    top: 54px;
+    right: 160px;
+    height: 230px;
+   
+    
+}
+/* nav ul li .fa-xs{
+    transition: 1s;
+}
+nav ul li:hover > nav ul li .fa-xs{
+    transform:rotate(180deg);
+} */
+.more .fa-caret-up{
+    position: absolute;
+    left: 121px;
+    bottom: 209px;
+    font-size: 39px;
+    color: white;
+}
+.more ul{
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(45, 44, 44, 0.065);
+    box-shadow: -1px -1px 15px  rgba(56, 82, 106, 0.207), 1px 1px 15px  rgba(56, 82, 106, 0.843);
+}
+.more ul li{
+    margin: 0;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 16px 25px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.065);
+    border-radius: 2px;
+}
+.more ul li i {
+    padding: 0 15px 0 0;
+}
+.more ul li span{
+    display: flex;
+    padding:0 15px 0 0;
+}
+.more ul li:hover{
+    background-color: whitesmoke;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+main{
+    background-color:rgba(230, 228, 228, 0.667);
+}
+main .continer1{
+    background-color:white;
+    min-height: 100px;
+    padding: 2vh 5vw;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    
+}
+
+main .continer1 .continerx{
+    position: relative;
+    align-items: center;
+    /* background-color: #7d1616; */
+    margin: 5px 12px;
+    height: 85px;
+    width: 50px;
+    padding: 8px 22px;
+    /* border-right: 2px solid aqua; */
+    font-size: 14px;
+    text-align: center;
+}
+main .continer1 .continerx img{
+    height: 50px;
+    min-width: 50px;
+    display:block;
+    justify-content: center;
+    transition: 1s;   
+}
+main .continer1 .continerx img:hover{
+   transform: scale(1.3);
+}
+main .continer1 .continerx a{
+    text-decoration: none;
+    color: black;
+    line-height: 5px ;
+}
+main .continer1 .continerx p{
+    /* display: block; */
+    padding: 15px 0;
+    line-height: 15px;
+    font-weight: 550;
+}
+main .continer1 .continerx p:hover{
+    color: #2874f0;
+}
+
+main .continer1 .product8{
+    display: grid;
+    margin: 6px 0;
+    min-width: 100px;
+    /* background-color: #950e95; */
+    justify-content: center;
+}
+main .continer1 .product9{
+    display: grid;
+    margin: 6px 0;
+    min-width: 85px;
+    /* background-color: #32950e; */
+    justify-content: center;
+}
+main .continer1 .product9 img{
+    padding: 0 15px;
+}
+main .continer1 .product9 p{
+    padding: 5px 0;
+}
+
+main .continer1 .product10{
+    display: grid;
+    margin: 6px 0;
+    min-width: 90px;
+    /* background-color: #200e95; */
+    justify-content: center;
+}
+main .continer1 .product10 img{
+    padding: 0 15px;
+}
+main .continer1 .product10 p{
+    padding: 5px 0;
+}
+
+
+
+main .continer2{
+    display: block;
+    position: relative;
+    margin: 10px 15px;
+    max-height: 40vh;
+    overflow: hidden;
+    /* background-color: #0cc537; */
+}
+main .continer2 .btnx{
+    position: absolute;
+    height: 90px;
+    width: 45px;
+    font-size: 30px;
+    top: 270px;
+    border: 1px;
+}
+main .continer2 .btnx i{
+    transition: .5s;
+}
+main .continer2 .btnx i:hover{
+    transform: scale(1.3);
+}
+main .continer2 .btn2{
+    border-radius:0 6px 6px 0;
+    position: absolute;
+    left: 10px;
+}
+main .continer2 .btn3{
+    border-radius:6px 0 0 6px;
+    right: 15px;
+}
+
+
+
+
+main .continer3{
+    display: flex;
+    margin: 10px 15px;
+    max-height: 60vh;
+    justify-content: space-between; 
+}
+main .continer3 .box1{
+    display: flex;
+    /* background-color: #feb600; */
+    max-height: 360px;
+    width: 82%;  
+}
+main .continer3 .box1 .boxi{
+    display: grid;
+    background-color:white;
+    max-height: 360px;
+    width: 230px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90&quot;);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    text-align: center;
+    align-items: center;
+    
+}
+main .continer3 .box1 .boxi p{
+    font-size: 30px;
+}
+main .continer3 .box1 .boxi .btn4{
+    position: relative;
+    bottom: 80px;
+    left: 75px;
+    height: 40px;
+    width: 80px;
+    background-color:#2874f0;
+    border: 1px;
+    border-radius: 2px;
+    font-weight: 600;
+    color: aliceblue; 
+    transition: 0.5s;  
+}
+main .continer3 .box1 .boxi .btn4:hover{
+    transform: scale(1.1);
+}
+main .continer3 .box1 .boxii{
+    /* background-color: #0cc537; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* padding-left: 80px; */
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    overflow-x: auto;
+    /* z-index: 10; */
+}
+/*try*/
+main .continer3 .box1 .boxii .box2o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* padding-left: 315px; */
+    padding-top: 50px;
+    /* background-color: rgb(224, 16, 16); */
+    height: 50%;
+    max-width: 1100px;
+} 
+
+/*try*/
+
+main .continer3 .box1 .boxii .boxa{
+    /* background-color: yellow; */
+    height: 260px;
+    width:180px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+main .continer3 .box1 .boxii .boxa img{
+    height: 150px;
+    width:180px;
+    transition: 0.5s;
+}
+main .continer3 .box1 .boxii .boxa img:hover {
+    transform: scale(1.1);
+}
+
+main .continer3 .box1 .boxii .boxab img{
+    width: 80px;
+}
+main .continer3 .box1 .boxii .boxa p{
+    margin-top: 20px;
+    padding: 0;
+}
+main .continer3 .box1 .boxii .boxa .price{
+    margin-top: 10px;
+    color: #0cc5378c;
+}
+main .continer3 .box1 .boxii .boxa .dtl{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.447);
+}
+main .continer3 .box2{
+    display: flex;
+    /* background-color: #0cc537; */
+    float: right;
+    max-height: 360px;
+    max-width: 220px;
+    border: 5px solid white;
+    transition: 0.5s;
+}
+main .continer3 .box2:hover{
+    transform: scale(1.05);
+}
+main .continer3 .box2 img{
+    max-height: 340px;
+}
+
+
+main .continer4{
+    background-color:white;
+    display: flex;
+    margin: 15px 15px;
+    max-height: 60vh;
+}
+main .continer4 .box1{
+    display: grid;
+    /* background-color:white; */
+    max-height: 340px;
+    width: 230px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    text-align: center;
+    align-items: center;
+}
+main .continer4 .box1 P{
+    font-size: 30px;
+}
+main .continer4 .box1 .btn5{
+    position: relative;
+    bottom: 80px;
+    left: 75px;
+    height: 40px;
+    width: 80px;
+    background-color:#2874f0;
+    border: 1px;
+    border-radius: 2px;
+    font-weight: 600;
+    color: aliceblue; 
+    transition: 0.5s;  
+}
+main .continer4 .box1 .btn5:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+main .continer4 .box2{
+    display: flex;
+    align-items: center;
+    width: 83%;
+    overflow-x: auto;
+}
+main .continer4 .box2 .boxa{
+    text-align: center;
+    max-height: 295px;
+    width:200px;
+    margin-top: 40px;
+    padding: 0px 20px;
+    cursor: pointer;
+    /* background-color: #b82222; */
+}
+main .continer4 .box2 .boxa img{
+    height: 150px;
+    /* width:180px; */
+    transition: 0.5s;
+}
+main .continer4 .box2 .boxa img:hover {
+    transform: scale(1.1);
+}
+
+main .continer4 .box2 .boxa p{
+    margin-top: 20px;
+    padding: 0;
+}
+main .continer4 .box2 .boxa .price{
+    margin-top: 10px;
+    color: #0cc5378c;
+}
+main .continer4 .box2 .boxa .dtl{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.447);
+}
+
+main .continer5{
+    max-height: 100vh;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 60px 33px;
+    /* padding-right: 60px; */
+    overflow: scroll;
+}
+main .continer5 h3{
+    color: #878787;
+}
+main .continer5 p{
+    display: block;
+    position: relative;
+    bottom: 0;
+    color: #878787;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+footer{
+    display: block;
+    /* max-height: 50vh; */
+}
+
+footer .continer1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    max-height: 35vh;
+    background-color: #172337;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+footer .continer1 .continerx{
+    position: relative;
+    max-height: 35vh;
+    width: 12vw;
+}
+/* footer .continer1 .continerii{
+    max-height: 35vh;
+} */
+footer .continer1 .continerx p{
+    font-size: 12px;
+    color: #878787;
+    padding-bottom: 10px;
+}
+footer .continer1 .continerx a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 12px;
+    line-height: 25px;
+}
+footer .continer1 .continerx a:hover{
+    text-decoration: underline;
+}
+footer .continer1 .continerv{
+    width:23vw;
+}
+footer .continer1 .contineriv{
+        margin-left: 20px;
+    }
+footer .continer1 .continervi{
+    width:20vw;
+}
+
+footer .continer1 .continerx .continerf{
+    padding: 0 20px;
+    height: 130px;
+    border-left:0.05px solid  #878787;
+}
+footer .continer1 .continerx .pq{
+    padding-bottom: 20px;
+}
+footer .continer1 .continerx .po{
+    display: flex;
+    color: white;
+    text-align: left;
+    line-height: 10px;
+}
+footer .continer1 .continerx .po .num{
+    display: flex;
+    color: #2874f0;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+    bottom: 8.5px;
+}
+footer .continer1 .continerx .po .num:hover{
+    text-decoration: none;
+}
+
+
+footer .continer2{
+    position: relative;
+    border-top: 1px solid #878787;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 4vh;
+    background-color: #172337;
+    padding: 25px 60px;
+}
+footer .continer2 .continerx{
+    display: flex;
+    color: #ffff;
+    font-size: 14px;
+    max-height: 3vh;
+    cursor: pointer;
+}
+footer .continer2 .continerx p{
+    margin-left: 20px;
+}
+footer .continer2 .continerx p:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+footer .continer2 .continerv p:hover{
+    text-decoration: none;
+    color: #ffff;
+    cursor: auto;
+}
